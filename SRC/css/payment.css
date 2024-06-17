@@ -1,0 +1,20 @@
+
+.pcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    padding-bottom:70px;
+}
+.pcontainer form{
+    padding:20px;
+    width:700px;
+    background:#fff;
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+.pcontainer form.row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
